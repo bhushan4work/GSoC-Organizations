@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  'Gambit: The package for computation in game theory': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/gambitproject',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gambitproject',
+    source: 'manual',
+  },
   Ganeti: {
     repositories: [
       {
