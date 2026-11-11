@@ -198,6 +198,19 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/gnss-sdr',
     source: 'manual',
   },
+  'Genes, Genomes and Variation': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/Ensembl/ensembl',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/Ensembl',
+    source: 'manual',
+  },
   'Gentoo Foundation': {
     repositories: [
       {
