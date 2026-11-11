@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  'Global Alliance for Genomics and Health': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/ga4gh',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/ga4gh',
+    source: 'manual',
+  },
   AboutCode: {
     repositories: [
       {
