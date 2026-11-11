@@ -372,9 +372,17 @@
     "source": "search"
   },
   "GNSS-SDR": {
-    "repositories": [],
-    "organizationProfile": "https://www.google.com/search?q=GNSS-SDR%20source%20code%20repository",
-    "source": "search"
+    "repositories": [
+      {
+        "label": "GNSS-SDR repositories",
+        "url": "https://github.com/gnss-sdr",
+        "host": "GitHub",
+        "verified": true,
+        "lastChecked": "2026-11-11"
+      }
+    ],
+    "organizationProfile": "https://github.com/gnss-sdr",
+    "source": "manual"
   },
   "GNU Mailman Project": {
     "repositories": [],

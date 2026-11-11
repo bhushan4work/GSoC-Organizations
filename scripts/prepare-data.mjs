@@ -185,6 +185,19 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/ga4gh',
     source: 'manual',
   },
+  'GNSS-SDR': {
+    repositories: [
+      {
+        label: 'GNSS-SDR repositories',
+        url: 'https://github.com/gnss-sdr',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gnss-sdr',
+    source: 'manual',
+  },
   AboutCode: {
     repositories: [
       {
