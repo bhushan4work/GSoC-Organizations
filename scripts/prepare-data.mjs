@@ -198,6 +198,26 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/gnss-sdr',
     source: 'manual',
   },
+  'Gentoo Foundation': {
+    repositories: [
+      {
+        label: 'Official GitHub organization',
+        url: 'https://github.com/gentoo',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+      {
+        label: 'Official Codeberg organization',
+        url: 'https://codeberg.org/gentoo',
+        host: 'Codeberg',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gentoo',
+    source: 'manual',
+  },
   AboutCode: {
     repositories: [
       {
