@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  'GNSS-SDR': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/gnss-sdr/gnss-sdr',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gnss-sdr',
+    source: 'manual',
+  },
   AboutCode: {
     repositories: [
       {
