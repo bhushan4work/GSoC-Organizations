@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  Ganeti: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/ganeti/ganeti',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/ganeti',
+    source: 'manual',
+  },
   'Global Alliance for Genomics and Health': {
     repositories: [
       {
