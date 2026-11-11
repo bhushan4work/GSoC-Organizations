@@ -176,7 +176,7 @@ const manualRepositories = {
     repositories: [
       {
         label: 'Official repositories',
-        url: 'https://github.com/ganeti/ganeti',
+        url: 'https://github.com/ganeti',
         host: 'GitHub',
         verified: true,
         lastChecked: '2026-11-11',
