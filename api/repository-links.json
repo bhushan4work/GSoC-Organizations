@@ -322,7 +322,7 @@
     "repositories": [
       {
         "label": "Official repositories",
-        "url": "https://github.com/Ensembl/ensembl",
+        "url": "https://github.com/Ensembl",
         "host": "GitHub",
         "verified": true,
         "lastChecked": "2026-11-11"
