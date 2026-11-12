@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  'The FreeBSD Project': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freebsd',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-12',
+      },
+    ],
+    organizationProfile: 'https://github.com/freebsd',
+    source: 'manual',
+  },
   'Gambit: The package for computation in game theory': {
     repositories: [
       {
