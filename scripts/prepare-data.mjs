@@ -172,6 +172,137 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  FOSDEM: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://git.fosdem.org/FOSDEM',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+      {
+        label: 'GitHub organization',
+        url: 'https://github.com/FOSDEM',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+    ],
+    organizationProfile: 'https://git.fosdem.org/FOSDEM',
+    source: 'manual',
+  },
+  freifunk: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freifunk',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/freifunk',
+    source: 'manual',
+  },
+  'The FreeBSD Project': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freebsd',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-12',
+      },
+    ],
+    organizationProfile: 'https://github.com/freebsd',
+    source: 'manual',
+  },
+  'Gambit: The package for computation in game theory': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/gambitproject',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gambitproject',
+    source: 'manual',
+  },
+  Ganeti: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/ganeti',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/ganeti',
+    source: 'manual',
+  },
+  'Global Alliance for Genomics and Health': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/ga4gh',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/ga4gh',
+    source: 'manual',
+  },
+  'GNSS-SDR': {
+    repositories: [
+      {
+        label: 'GNSS-SDR repositories',
+        url: 'https://github.com/gnss-sdr',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gnss-sdr',
+    source: 'manual',
+  },
+  'Genes, Genomes and Variation': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/Ensembl',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/Ensembl',
+    source: 'manual',
+  },
+  'Gentoo Foundation': {
+    repositories: [
+      {
+        label: 'Official GitHub organization',
+        url: 'https://github.com/gentoo',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+      {
+        label: 'Official Codeberg organization',
+        url: 'https://codeberg.org/gentoo',
+        host: 'Codeberg',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gentoo',
+    source: 'manual',
+  },
   AboutCode: {
     repositories: [
       {

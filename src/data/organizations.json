@@ -37405,9 +37405,24 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=FOSDEM%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://git.fosdem.org/FOSDEM",
+          "host": "Self-hosted Git",
+          "verified": true,
+          "lastChecked": "2026-11-13"
+        },
+        {
+          "label": "GitHub organization",
+          "url": "https://github.com/FOSDEM",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-13"
+        }
+      ],
+      "organizationProfile": "https://git.fosdem.org/FOSDEM",
+      "source": "manual"
     }
   },
   {
@@ -42128,9 +42143,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=freifunk%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://github.com/freifunk",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/freifunk",
+      "source": "manual"
     }
   },
   {
@@ -42438,9 +42461,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=Gambit%3A%20The%20package%20for%20computation%20in%20game%20theory%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://github.com/gambitproject",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/gambitproject",
+      "source": "manual"
     }
   },
   {
@@ -42498,9 +42529,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=Ganeti%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://github.com/ganeti",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/ganeti",
+      "source": "manual"
     }
   },
   {
@@ -42937,9 +42976,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=Genes%2C%20Genomes%20and%20Variation%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://github.com/Ensembl",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/Ensembl",
+      "source": "manual"
     }
   },
   {
@@ -43758,9 +43805,24 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=Gentoo%20Foundation%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official GitHub organization",
+          "url": "https://github.com/gentoo",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        },
+        {
+          "label": "Official Codeberg organization",
+          "url": "https://codeberg.org/gentoo",
+          "host": "Codeberg",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/gentoo",
+      "source": "manual"
     }
   },
   {
@@ -45771,9 +45833,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=Global%20Alliance%20for%20Genomics%20and%20Health%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://github.com/ga4gh",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/ga4gh",
+      "source": "manual"
     }
   },
   {
@@ -47533,9 +47603,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=GNSS-SDR%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "GNSS-SDR repositories",
+          "url": "https://github.com/gnss-sdr",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-11"
+        }
+      ],
+      "organizationProfile": "https://github.com/gnss-sdr",
+      "source": "manual"
     }
   },
   {
@@ -147953,9 +148031,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=The%20FreeBSD%20Project%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "Official repositories",
+          "url": "https://github.com/freebsd",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-12"
+        }
+      ],
+      "organizationProfile": "https://github.com/freebsd",
+      "source": "manual"
     }
   },
   {
