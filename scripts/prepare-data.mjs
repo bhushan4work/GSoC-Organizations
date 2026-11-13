@@ -195,7 +195,7 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://github.com/freifunk',
-    source: 'manual' ,  
+    source: 'manual',
   },
   'The FreeBSD Project': {
     repositories: [
@@ -663,18 +663,18 @@ const organizations = [...groupedRecords.values()]
       manual ||
       (derived
         ? {
-          repositories: [derived],
-          organizationProfile:
-            derived.label === 'Organization profile'
-              ? derived.url
-              : undefined,
-          source: 'derived',
-        }
+            repositories: [derived],
+            organizationProfile:
+              derived.label === 'Organization profile'
+                ? derived.url
+                : undefined,
+            source: 'derived',
+          }
         : {
-          repositories: [],
-          organizationProfile: `https://www.google.com/search?q=${encodeURIComponent(`${org.name} source code repository`)}`,
-          source: 'search',
-        });
+            repositories: [],
+            organizationProfile: `https://www.google.com/search?q=${encodeURIComponent(`${org.name} source code repository`)}`,
+            source: 'search',
+          });
     repositoryLinks[org.name] = repository;
     const years = org.participations.map((item) => item.year);
     const localLogo = logoAssets[org.slug];
