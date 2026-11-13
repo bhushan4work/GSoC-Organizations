@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  freifunk: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freifunk',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/freifunk',
+    source: 'manual',
+  },
   'The FreeBSD Project': {
     repositories: [
       {
