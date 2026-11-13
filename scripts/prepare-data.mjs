@@ -195,6 +195,19 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://github.com/freifunk',
+    source: 'manual' ,  
+  },
+  'The FreeBSD Project': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freebsd',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-12',
+      },
+    ],
+    organizationProfile: 'https://github.com/freebsd',
     source: 'manual',
   },
   'Gambit: The package for computation in game theory': {
@@ -650,18 +663,18 @@ const organizations = [...groupedRecords.values()]
       manual ||
       (derived
         ? {
-            repositories: [derived],
-            organizationProfile:
-              derived.label === 'Organization profile'
-                ? derived.url
-                : undefined,
-            source: 'derived',
-          }
+          repositories: [derived],
+          organizationProfile:
+            derived.label === 'Organization profile'
+              ? derived.url
+              : undefined,
+          source: 'derived',
+        }
         : {
-            repositories: [],
-            organizationProfile: `https://www.google.com/search?q=${encodeURIComponent(`${org.name} source code repository`)}`,
-            source: 'search',
-          });
+          repositories: [],
+          organizationProfile: `https://www.google.com/search?q=${encodeURIComponent(`${org.name} source code repository`)}`,
+          source: 'search',
+        });
     repositoryLinks[org.name] = repository;
     const years = org.participations.map((item) => item.year);
     const localLogo = logoAssets[org.slug];
