@@ -172,6 +172,137 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  FOSDEM: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://git.fosdem.org/FOSDEM',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+      {
+        label: 'GitHub organization',
+        url: 'https://github.com/FOSDEM',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+    ],
+    organizationProfile: 'https://git.fosdem.org/FOSDEM',
+    source: 'manual',
+  },
+  freifunk: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freifunk',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/freifunk',
+    source: 'manual',
+  },
+  'The FreeBSD Project': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/freebsd',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-12',
+      },
+    ],
+    organizationProfile: 'https://github.com/freebsd',
+    source: 'manual',
+  },
+  'Gambit: The package for computation in game theory': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/gambitproject',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gambitproject',
+    source: 'manual',
+  },
+  Ganeti: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/ganeti',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/ganeti',
+    source: 'manual',
+  },
+  'Global Alliance for Genomics and Health': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/ga4gh',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/ga4gh',
+    source: 'manual',
+  },
+  'GNSS-SDR': {
+    repositories: [
+      {
+        label: 'GNSS-SDR repositories',
+        url: 'https://github.com/gnss-sdr',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gnss-sdr',
+    source: 'manual',
+  },
+  'Genes, Genomes and Variation': {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://github.com/Ensembl',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/Ensembl',
+    source: 'manual',
+  },
+  'Gentoo Foundation': {
+    repositories: [
+      {
+        label: 'Official GitHub organization',
+        url: 'https://github.com/gentoo',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+      {
+        label: 'Official Codeberg organization',
+        url: 'https://codeberg.org/gentoo',
+        host: 'Codeberg',
+        verified: true,
+        lastChecked: '2026-11-11',
+      },
+    ],
+    organizationProfile: 'https://github.com/gentoo',
+    source: 'manual',
+  },
   AboutCode: {
     repositories: [
       {
@@ -196,6 +327,40 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://github.com/ceph',
+    source: 'manual',
+  },
+  'Fedora Project': {
+    repositories: [
+      {
+        label: 'Pagure (upstream projects)',
+        url: 'https://pagure.io/',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+      {
+        label: 'Fedora dist-git (src.fedoraproject.org)',
+        url: 'https://src.fedoraproject.org/',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+      {
+        label: 'Fedora Infrastructure on GitHub',
+        url: 'https://github.com/fedora-infra',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+      {
+        label: 'Fedora on GitLab',
+        url: 'https://gitlab.com/fedora',
+        host: 'GitLab',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+    ],
+    organizationProfile: 'https://pagure.io/',
     source: 'manual',
   },
   '52°North Spatial Information Research GmbH': {
@@ -322,6 +487,26 @@ const manualRepositories = {
     organizationProfile: 'https://projects.blender.org/blender',
     source: 'manual',
   },
+  FFmpeg: {
+    repositories: [
+      {
+        label: 'Official repositories',
+        url: 'https://git.ffmpeg.org/ffmpeg.git',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+      {
+        label: 'GitHub organization',
+        url: 'https://github.com/FFmpeg',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+    ],
+    organizationProfile: 'https://git.ffmpeg.org/',
+    source: 'manual',
+  },
   'KDE Community': {
     repositories: [
       {
@@ -385,6 +570,39 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://git.kernel.org/pub/scm/git/',
+    source: 'manual',
+  },
+  'OpenMS Inc': {
+    repositories: [
+      {
+        label: 'OpenMS Inc',
+        url: 'https://github.com/OpenMS/OpenMS',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+    ],
+    organizationProfile: 'https://github.com/OpenMS',
+    source: 'manual',
+  },
+  Discourse: {
+    repositories: [
+      {
+        label: 'Discourse',
+        url: 'https://github.com/discourse/discourse',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+      {
+        label: 'GitHub organization',
+        url: 'https://github.com/discourse',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-13',
+      },
+    ],
+    organizationProfile: 'https://github.com/discourse',
     source: 'manual',
   },
 };
