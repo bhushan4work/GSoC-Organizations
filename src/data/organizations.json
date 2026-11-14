@@ -33533,21 +33533,14 @@
     "repository": {
       "repositories": [
         {
-          "label": "GitHub organization",
-          "url": "https://github.com/drupalassociation",
-          "host": "GitHub",
-          "verified": true,
-          "lastChecked": "2026-11-14"
-        },
-        {
-          "label": "GSoC project repository",
-          "url": "https://git.drupalcode.org/project/gsoc",
+          "label": "Official repositories",
+          "url": "https://git.drupalcode.org/project",
           "host": "Self-hosted Git",
           "verified": true,
           "lastChecked": "2026-11-14"
         }
       ],
-      "organizationProfile": "https://github.com/drupalassociation",
+      "organizationProfile": "https://git.drupalcode.org/project",
       "source": "manual"
     }
   },
