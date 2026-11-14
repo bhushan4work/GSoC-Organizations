@@ -224,6 +224,26 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/AcademySoftwareFoundation',
     source: 'manual',
   },
+  'Drupal Association': {
+    repositories: [
+      {
+        label: 'GitHub organization',
+        url: 'https://github.com/drupalassociation',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+      {
+        label: 'GSoC project repository',
+        url: 'https://git.drupalcode.org/project/gsoc',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+    ],
+    organizationProfile: 'https://github.com/drupalassociation',
+    source: 'manual',
+  },
   '3DTK': {
     repositories: [
       {
