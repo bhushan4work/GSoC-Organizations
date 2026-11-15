@@ -221,7 +221,7 @@ const manualRepositories = {
   Debian: {
     repositories: [
       {
-        label: 'Official repositories',
+        label: 'Debian repositories',
         url: 'https://salsa.debian.org/debian',
         host: 'GitLab',
         verified: true,
