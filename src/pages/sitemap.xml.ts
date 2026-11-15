@@ -32,6 +32,8 @@ export const GET: APIRoute = ({ site }) => {
     '/technologies/',
     '/topics/',
     '/categories/',
+    '/guides/choose-a-gsoc-organization/',
+    '/insights/',
     `/new-in-${firstTimeHub.year}/`,
     ...yearHubs.map((hub) => `/year/${hub.year}/`),
     ...technologyHubs.map((hub) => `/technology/${hub.slug}/`),
