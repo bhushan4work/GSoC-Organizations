@@ -296,6 +296,19 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/gnss-sdr',
     source: 'manual',
   },
+  ScummVM: {
+    repositories: [
+      {
+        label: 'ScummVM source repository',
+        url: 'https://github.com/scummvm/scummvm',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-20',
+      },
+    ],
+    organizationProfile: 'https://github.com/scummvm',
+    source: 'manual',
+  },
   'ReactOS Foundation': {
     repositories: [
       {
@@ -307,6 +320,19 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://github.com/reactos',
+    source: 'manual',
+  },
+  Scilab: {
+    repositories: [
+      {
+        label: 'Scilab source repository',
+        url: 'https://gitlab.com/scilab/scilab',
+        host: 'GitLab',
+        verified: true,
+        lastChecked: '2026-11-20',
+      },
+    ],
+    organizationProfile: 'https://gitlab.com/scilab',
     source: 'manual',
   },
   'Genes, Genomes and Variation': {
@@ -685,6 +711,27 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/discourse',
     source: 'manual',
   },
+
+  'GNOME Foundation': {
+    repositories: [
+      {
+        label: 'GNOME repositories',
+        url: 'https://gitlab.gnome.org/GNOME',
+        host: 'Self-hosted Git',
+        verified: true,
+        lastChecked: '2026-11-15',
+      },
+      {
+        label: 'GitHub read-only mirror',
+        url: 'https://github.com/GNOME',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-15',
+      },
+    ],
+    organizationProfile: 'https://gitlab.gnome.org/GNOME',
+    source: 'manual',
+  },
   'Free and Open Source Silicon Foundation': {
     repositories: [
       {
@@ -709,6 +756,26 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://review.coreboot.org/coreboot',
+    source: 'manual',
+  },
+  preCICE: {
+    repositories: [
+      {
+        label: 'preCICE repositories',
+        url: 'https://github.com/precice',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-18',
+      },
+      {
+        label: 'preCICE library repository',
+        url: 'https://github.com/precice/precice',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-18',
+      },
+    ],
+    organizationProfile: 'https://github.com/precice',
     source: 'manual',
   },
   'Distributed and Unified Numerics Environment (DUNE)': {
